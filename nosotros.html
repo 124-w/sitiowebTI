@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>pagina principal</h1>
+    <a href="index.html" target="_blank">inicio</a>
+    
+    <div class="container">
+      <header class="header">
+        <h1 id="title" class="text-center">STEN</h1>
+        <p id="description" class="description text-center">
+          El area TI para que su espacio personal y de trabajo...
+        </p>
+      </header>
+      <form id="survey-form">
+        <div class="form-group">
+          <label id="name-label" for="Nombre">Nombre</label>
+          <input
+            type="text"
+            name="Nombre"
+            id="Nombre"
+            class="form-control"
+            placeholder="Introduzca su Nombre"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label id="email-label" for="email">Email</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            class="form-control"
+            placeholder="Enter your Email"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label id="number-label" for="Numero"
+            ><span class="clue">Numero Telefonico</span></label
+          >
+          <input
+            type="Numero"
+            name="age"
+            id="Numero"
+            min="10"
+            max="99"
+            class="form-control"
+            placeholder="Numero Telefonico"
+          />
+        </div>
+        <div class="form-group">
+          <p>¿Qué opción describe mejor su función actual?</p>
+          <select id="dropdown" name="role" class="form-control" required>
+            <option disabled selected value>Seleccionar rol actual</option>
+            <option value="Estudiante">Estudiante</option>
+            <option value="Empresario">Empresario</option>
+            <option value="Emprendedor">Emprendedor</option>
+            <option value="estudio y tabajo">estudio y tabajo</option>
+            <option value="Otro">Otro</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+            <p>¿su equipo de computo se calienta mas de lo normal</p>
+            <label>
+              <input
+                name="user-recommend"
+                value="definitely"
+                type="radio"
+                class="input-radio"
+                checked
+              />Si</label>
+              <label>
+                <input
+                  name="user-recommend"
+                  value="definitely"
+                  type="radio"
+                  class="input-radio"
+                  checked
+                />No</label>
+                <label>
+                    <input
+                      name="user-recommend"
+                      value="definitely"
+                      type="radio"
+                      class="input-radio"
+                      checked
+                    />Aveces</label>
+        </div>
+
+        <div class="form-group">
+          <p>¿Su equipo de computo demora en encender?</p>
+          <label>
+            <input
+              name="user-recommend"
+              value="definitely"
+              type="radio"
+              class="input-radio"
+              checked
+            />Si</label>
+            <label>
+              <input
+                name="user-recommend"
+                value="definitely"
+                type="radio"
+                class="input-radio"
+                checked
+              />No</label>
+              <label>
+                  <input
+                    name="user-recommend"
+                    value="definitely"
+                    type="radio"
+                    class="input-radio"
+                    checked
+                  />Aveces</label>
+        </div>
+
+        <div class="form-group">
+            <p>¿ su equipo de computo funciona mas lento que  de costumbre?
+            </p>
+            <label>
+              <input
+                name="user-recommend"
+                value="definitely"
+                type="radio"
+                class="input-radio"
+                checked
+              />Si</label>
+              <label>
+                <input
+                  name="user-recommend"
+                  value="definitely"
+                  type="radio"
+                  class="input-radio"
+                  checked
+                />No</label>
+                <label>
+                    <input
+                      name="user-recommend"
+                      value="definitely"
+                      type="radio"
+                      class="input-radio"
+                      checked
+                    />Aveces</label>
+          </div>
+
+          <div class="form-group">
+            <p>¿su equipo de computo da imagen en pantalla ?
+            </p>
+            <label>
+              <input
+                name="user-recommend"
+                value="definitely"
+                type="radio"
+                class="input-radio"
+                checked
+              />Si</label>
+              <label>
+                <input
+                  name="user-recommend"
+                  value="definitely"
+                  type="radio"
+                  class="input-radio"
+                  checked
+                />No</label>
+                <label>
+                    <input
+                      name="user-recommend"
+                      value="definitely"
+                      type="radio"
+                      class="input-radio"
+                      checked
+                    />Aveces</label>
+          </div>
+
+          <div class="form-group">
+            <p>¿su equipo de computo enciende ?
+            </p>
+            <label>
+              <input
+                name="user-recommend"
+                value="definitely"
+                type="radio"
+                class="input-radio"
+                checked
+              />Si</label>
+              <label>
+                <input
+                  name="user-recommend"
+                  value="definitely"
+                  type="radio"
+                  class="input-radio"
+                  checked
+                />No</label>
+                <label>
+                    <input
+                      name="user-recommend"
+                      value="definitely"
+                      type="radio"
+                      class="input-radio"
+                      checked
+                    />Aveces</label>
+
+        <h1>
+            <p>
+                sus respuestas serán revisadas por uno de nuestros técnicos especializados en las próxima horas la respuesta será enviada al correo electrónico ingresado anterior mente  
+            </p>
+        </h1>
+  </body>
+</html>
+
+<style>
+  body {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    background-color: #00005a;
+    color: #f5f6f7;
+    font-family: Tahoma;
+    font-size: 16px;
+  }
+  
+  h1, p {
+    margin: 1em auto;
+    text-align: center;
+  }
+  
+  form {
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+  }
+  
+  fieldset {
+    border: none;
+    padding: 2rem 0;
+    border-bottom: 3px solid #4b4bec;
+  }
+  
+  fieldset:last-of-type {
+    border-bottom: none;
+  }
+  
+  label {
+    display: block;
+    margin: 0.5rem 0;
+  }
+  
+  input,
+  textarea,
+  select {
+    margin: 10px 0 0 0;
+    width: 100%;
+    min-height: 2em;
+  }
+  
+  input, textarea {
+    background-color: #0a0a23;
+    border: 1px solid #0a0a23;
+    color: #ffffff;
+  }
+  
+  .inline {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+  }
+  
+  input[type="submit"] {
+    display: block;
+    width: 60%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: #3b3b4f;
+    border-color: white;
+    min-width: 300px;
+  }
+  
+  input[type="file"] {
+    padding: 1px 2px;
+  }
+</style>
